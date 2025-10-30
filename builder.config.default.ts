@@ -11,7 +11,7 @@ export default defineBuilderConfig(() => ({
     token: env.GIT_TOKEN,
   },
   storage: {
-    provider: 's3',
+    provider: 'S3',
     bucket: env.S3_BUCKET_NAME,
     region: env.S3_REGION,
     endpoint: env.S3_ENDPOINT,
